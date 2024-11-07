@@ -67,22 +67,26 @@ header {
     text-align: left;
 }
 
+/* Hero Section */
 .hero h2 {
     font-family: 'Outfit', sans-serif;
-    font-size: 3.5em;
+    font-size: 4em; /* Increased font size for the main heading */
     font-weight: 700;
-    line-height: 1.2;
+    line-height: 1.1; /* Adjusted line-height for closer spacing */
     margin-bottom: 20px;
     color: #ffffff;
 }
 
 .hero p {
     font-family: 'Outfit', sans-serif;
-    font-size: 1.2em;
+    font-size: 1.1em; /* Adjusted font size for subtext */
     font-weight: 400;
-    margin-bottom: 30px;
+    line-height: 1.5; /* Adjusted line-height for better readability */
     color: #d3d3e0;
+    margin-bottom: 30px; /* Added space below the paragraph */
+    max-width: 400px; /* Added max-width to match Figma structure */
 }
+
 
 /* Hero Buttons */
 .hero-buttons {
