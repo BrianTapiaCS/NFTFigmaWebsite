@@ -1,0 +1,151 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', Arial, sans-serif;
+}
+
+body {
+    background-color: #2c2c54;
+    color: #ffffff;
+}
+
+/* Full-width Header */
+header {
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    right: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+
+.logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    gap: 30px;
+}
+
+.menu a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #8b73ff;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, #3a3a68, #2e2e7a);
+    color: #ffffff;
+    padding: 100px 20px; /* Adjusted padding to move section up */
+    min-height: 80vh;
+    display: flex;
+    align-items: flex-start; /* Align text and image at the top */
+    justify-content: center;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin-right: 40px;
+}
+
+.hero-text {
+    text-align: left;
+}
+
+.hero h2 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 3.5em;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.hero p {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.2em;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: #d3d3e0;
+}
+
+/* Hero Buttons */
+.hero-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.hero-buttons button {
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.hero-buttons button:first-child {
+    background-color: #8b73ff;
+    color: #ffffff;
+    border: none;
+}
+
+.hero-buttons button:last-child {
+    background-color: transparent;
+    color: #8b73ff;
+    border: 2px solid #8b73ff;
+}
+
+.hero-buttons button:hover {
+    transform: scale(1.05);
+}
+
+/* Featured Logos Section */
+.featured {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.featured p {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1em;
+    color: #d3d3e0;
+    margin-bottom: 20px;
+}
+
+/* Featured Logos */
+.featured-images {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+}
+
+.featured-images img {
+    height: 40px;
+    filter: grayscale(100%);
+    opacity: 0.8;
+    transition: opacity 0.3s;
+}
+
+.featured-images img:hover {
+    opacity: 1;
+}
+
+/* Her
